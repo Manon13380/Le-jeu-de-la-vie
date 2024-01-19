@@ -1,0 +1,40 @@
+body {
+    background-image: url(../images/blue-cell-life-biology-medicine-600nw-2230354743.webp);
+    background-size: cover;
+}
+
+h1 {
+   text-align: center;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+
+.gameContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    margin-top: 60px;
+    margin-left: 170px;
+}
+
+.line {
+    display: flex;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(159, 205, 234);
+}
+
+.button {
+    cursor: pointer;
+}
